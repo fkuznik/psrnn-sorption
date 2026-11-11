@@ -4,7 +4,7 @@
   "description": "Python package (PyTorch) that estimates the state of charge and the heat power of an open packed-bed sorption heat store from its inlet and outlet air measurements. The bed is split into slices whose transitions are exact water and energy balances; the isotherm (Toth, Langmuir or Dubinin-Astakhov), the transfer units and the heat losses are learnt. The package trains with or without state-of-charge labels, estimates the initial state of a phase from its first hours of measurements, and gives conformal prediction intervals. Examples: the full-scale STAID zeolite 13X store and a laboratory silica gel bed.",
   "creators": [
     {"name": "Kuznik, Frédéric", "affiliation": "INSA Lyon, CNRS, CETHIL, UMR5008, Villeurbanne, France", "orcid": "0000-0001-5724-1823"},
-    {"name": "Lamrani, Bilal", "affiliation": "Mohammed V University in Rabat, Morocco"},
+    {"name": "Lamrani, Bilal", "affiliation": "Mohammed V University in Rabat, Morocco", "orcid": "0000-0002-2823-8438"},
     {"name": "Johannes, Kévyn", "affiliation": "INSA Lyon, CNRS, CETHIL, UMR5008, Villeurbanne, France", "orcid": "0000-0002-4542-5622"}
   ],
   "license": "MIT",
