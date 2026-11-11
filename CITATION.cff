@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "psrnn: physics-structured recurrent networks for open sorption heat stores"
+version: 0.1.0
+date-released: 2026-11-11
+license: MIT
+repository-code: "https://github.com/fkuznik/psrnn-sorption"
+keywords:
+  - thermal energy storage
+  - sorption heat storage
+  - state of charge
+  - physics-informed machine learning
+  - recurrent neural network
+authors:
+  - family-names: Kuznik
+    given-names: Frédéric
+    orcid: "https://orcid.org/0000-0001-5724-1823"
+    affiliation: "INSA Lyon, CNRS, CETHIL, UMR5008, 69621 Villeurbanne, France"
+  - family-names: Lamrani
+    given-names: Bilal
+    affiliation: "MANAPSE Lab, Thermal Engineering Research Group, Faculty of Sciences, Mohammed V University in Rabat, Morocco"
+  - family-names: Johannes
+    given-names: Kévyn
+    orcid: "https://orcid.org/0000-0002-4542-5622"
+    affiliation: "INSA Lyon, CNRS, CETHIL, UMR5008, 69621 Villeurbanne, France"

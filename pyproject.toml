@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psrnn"
+version = "0.1.0"
+description = "Physics-structured recurrent networks to estimate the state of charge and heat power of open sorption heat stores"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Frédéric Kuznik", email = "frederic.kuznik@insa-lyon.fr" },
+    { name = "Bilal Lamrani", email = "b.lamrani@um5r.ac.ma" },
+    { name = "Kévyn Johannes", email = "kevyn.johannes@insa-lyon.fr" },
+]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.0", "torch>=2.0"]
+keywords = ["thermal energy storage", "sorption", "state of charge", "physics-informed machine learning",
+            "recurrent neural network", "zeolite", "silica gel"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/fkuznik/psrnn-sorption"
+Issues = "https://github.com/fkuznik/psrnn-sorption/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
